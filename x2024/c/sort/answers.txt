@@ -1,0 +1,8 @@
+sort1 uses: Bubble Sort
+How do you know?: Because sort1 is the most time taking among all three sort programmes.
+
+sort2 uses: Merge Sort
+How do you know?: Because sort2 is the fastest algorithm among all three.
+
+sort3 uses: Selection Sort
+How do you know?: Because the running time of sort3 is more than sort2 but less than sort1.

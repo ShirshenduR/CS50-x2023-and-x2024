@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>background color change</title>
+    </head>
+    <body>
+        <button id="red">R</button>
+        <button id="Green">G</button>
+        <button id="blue">B</button>
+        <button id="black">Bl</button>
+        <script>
+            let body=document.querySelector('body')
+            document.querySelector('#red').addEventListener('click',function(){
+                body.style.backgroundColor='red';
+            });
+            document.querySelector('#Green').addEventListener('click',function(){
+                body.style.backgroundColor='green';
+            });
+            document.querySelector('#black').addEventListener('click',function(){
+                body.style.backgroundColor='black';
+            });
+            document.querySelector('#blue').addEventListener('click', function(){
+                body.style.backgroundColor='blue';
+            });
+        </script>
+    </body>
+
+</html>
+

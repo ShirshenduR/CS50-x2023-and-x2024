@@ -1,0 +1,11 @@
+sort1 uses: Selection Sort Technique
+
+How do you know?: time taken is more than sort3
+
+sort2 uses: Merge Sort Technique
+
+How do you know?: fastest sorting technique among all the three
+
+sort3 uses: Bubble Sort Technique
+
+How do you know?: time taken is more than sort 2

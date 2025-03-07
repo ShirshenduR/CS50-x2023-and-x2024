@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body,html{
+    height:100%;
+    width:100%;
+}
+.heading
+{
+    font-size: 300%;
+
+}
+.container{
+    display:flex;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.name{
+    font: Sans-serif;
+    font-weight: bold;
+}

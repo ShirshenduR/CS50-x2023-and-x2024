@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(8, 6, 50);
+    color: #ffffff;
+    line-height: 1.8;
+    background-image: linear-gradient(to right, rgba(16, 108, 57, 0.8), rgba(13, 18, 15, 0.8));
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    border-radius: 15px;
+    
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-img {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.profile-img img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #FFD700;
+    box-shadow: 0 4px 8px rgba(255, 215, 0, 0.6);
+}
+
+header h1 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #FFD700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.5);
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.about-me {
+    margin-top: 30px;
+}
+
+.about-me h2 {
+    font-size: 2.5rem;
+    color: #00FF00;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 8px rgba(0, 255, 0, 0.6);
+}
+
+.about-me p {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.about-me a {
+    color: #FFD700;
+    text-decoration: none;
+    border-bottom: 2px solid #FFD700;
+    transition: all 0.3s ease;
+}
+
+.about-me a:hover {
+    color: #00FF00;
+    border-bottom: 2px solid #00FF00;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.1rem;
+    color: #888;
+}
+
+footer p {
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+footer p a {
+    color: #FFD700;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer p a:hover {
+    color: #00FF00;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .profile-img img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .about-me h2 {
+        font-size: 2rem;
+    }
+
+    .about-me p {
+        font-size: 1.1rem;
+    }
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container-fluid {
+    background-color: rgb(8, 6, 50);
+    display:flex;
+}
+.navigator{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+.navigator nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.navigator nav a {
+    color: #FFD700;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    margin: 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+
+.navigator nav a:hover {
+    color: #00FF00;
+}
+
+.navigator .logo {
+    font-size: 2rem;
+    color: #FFD700;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
+
+.navigator {
+    background-color: rgb(5, 64, 33);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding-top: 10px;
+    margin-top: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.1rem;
+    color: #888;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: center;
+}
+.navigator .logo {
+    font-size: 2rem;
+    color: #FFD700;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
+.navigator{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    position: sticky;
+    top:0px;
+}
+.logo{
+    font-weight: 600;
+    font-size: 4rem;
+}

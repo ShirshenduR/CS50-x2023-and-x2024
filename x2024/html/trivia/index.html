@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>What is the approximate ratio of people to sheep in New Zealand?</h3>
+                <button id='op1'>6 people per 1 sheep</button>
+                <button id='op2'>3 people per 1 sheep</button>
+                <button id='op3'>1 people per 1 sheep</button>
+                <button id='op4'>1 people per 3 sheep</button>
+                <button id='op5'>1 people per 6 sheep</button>
+                <p id="feedback"></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>In which country is it illegal to own only one guinea pig, as a lone guinea pig might get lonely?</h3>
+                <input type="text" id='p2'>
+                <button id='an2'>Check Answer</button>
+                <p id='f2'></p>
+            </div>
+        </div>
+        <script>
+            // TODO: Add code to check answers to questions
+            let options = ['#op2', '#op3', '#op4', '#op5'];
+            let option1 = document.querySelector('#op1');
+
+            // Event listener for the first option
+            option1.addEventListener('click', function() {
+                option1.style.backgroundColor = 'green';
+                option1.parentElement.querySelector('#feedback').innerHTML = 'Correct!';
+            });
+
+            // Event listeners for other options
+            for (let i = 0; i < options.length; i++) {
+                let option = document.querySelector(options[i]);
+                option.addEventListener('click', function() {
+                    option.style.backgroundColor = 'red';
+                    option.parentElement.querySelector('#feedback').innerHTML = 'Incorrect!';
+                });
+            }
+
+            let cop = 'switzerland';
+            let inp = document.querySelector('#p2');
+            let ans2 = document.querySelector('#an2');
+            ans2.addEventListener('click', function() {
+                if (inp.value.toLowerCase() == cop) {
+                    inp.parentElement.querySelector('#f2').innerHTML = 'Correct!';
+                    ans2.style.backgroundColor = 'green';
+                } else {
+                    inp.parentElement.querySelector('#f2').innerHTML = 'Incorrect!';
+                    an2.style.backgroundColor = 'red';
+                }
+            });
+        </script>
+    </body>
+
+</html>

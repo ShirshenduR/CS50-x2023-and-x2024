@@ -1,0 +1,16 @@
+HTML tags used: 
+<link>
+<div>
+<h1>
+<h2>
+<audio>
+<link>
+<style>
+<img>
+<span>
+<nav>
+<a>
+<p>
+<pre>
+<footer>
+<script>

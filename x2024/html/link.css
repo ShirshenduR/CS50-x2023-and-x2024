@@ -1,0 +1,16 @@
+.colour
+{
+    color:red;
+}
+.blue
+{
+    color:blue;
+}
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+}

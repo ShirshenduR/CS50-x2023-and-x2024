@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body,html{
+    height:100%;
+    width:100%;
+    background-color: rgb(8, 6, 50);
+    background-image: linear-gradient(to right, rgb(15, 105, 28), rgb(17, 87, 105));
+}
+.silkscreen-regular {
+    font-family: "Silkscreen", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .silkscreen-bold {
+    font-family: "Silkscreen", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .charm-regular {
+    font-family: "Charm", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .charm-bold {
+    font-family: "Charm", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+.bground{
+    background-color: rgb(8, 6, 50);
+    height: 100%;
+    width: 100%;
+
+}
+  
+.cont{
+    color:rgb(155, 54, 132);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position: absolute;
+    top: 40%;
+    left: 6%;
+}
+.cont h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.logo{
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-weight: 700;
+}
+.cont>p{
+    font-size: 60px;
+    font-weight: 300;
+    color: rgb(155, 54, 132);
+}
+.navigator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 60px;
+    left: 280px;
+}
+.navigator>nav>a{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(13, 223, 23);
+    text-decoration: none;
+    margin: 18px;
+    text-align: center;
+}
+.navigator>nav>a:hover{
+    color: rgb(13, 223, 23);
+    padding: 10px;
+    border-radius: 10px;
+}
+.pic{
+    display: flex;
+    position: relative;
+    justify-self: center;
+    top: 50px;
+    left: 250px;
+    border: 8px solid rgb(3, 104, 246);
+    border-radius: 50%;
+}
+#nme{
+    position: absolute;
+    top: 55%;
+    left:8%;
+}
+#intro{
+    position: absolute;
+    top: 65%;
+    left: 4%;
+    margin: 0px;
+}

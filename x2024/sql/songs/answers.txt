@@ -1,0 +1,7 @@
+If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+Ans - I will calculate the aura be checking the genre of the top 100 songs and characterize it accordibng to the genre into different moods.
+
+Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener.
+What better ways of calculating this aura would you propose?
+Ans -Yes, I think my way of calculating is not so representative of the listener because maybe some song with same genre my same singer or artist
+give a different mood or vibe so I think a better way of calculating the aura is by doing serveys with the listeners and use ai to understand the pattern of songs the listener is listening.
